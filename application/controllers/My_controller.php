@@ -18,6 +18,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			// echo "firstName = $firstName";
 			// echo "<br>lastName = $lastName <br>";
 		}
+
+		public function phpinfo(){
+			phpinfo();
+		}
 	}
 
 ?>
